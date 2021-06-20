@@ -2,8 +2,31 @@
 <html lang="en">
   <style>
     img {
+      height: 50%;
+      width: 50%;
+      border: 1px solid blue;
+      border-radius: 50%;
+    }
+    .id {
+      display: inline-block;
+      position: relative;
+      bottom: 1000px;
       height: 100%;
-      width: 100%;
+    }
+    ul li {
+      display: inline-block;
+      padding: 20px;
+      margin: 2px;
+    }
+    a {
+      text-decoration: none;
+      color: red;
+    }
+    ul {
+      background-color: black;
+    }
+    input {
+      display: inline-block;
     }
   </style>
   <head>
@@ -13,9 +36,28 @@
     <title>Image</title>
   </head>
   <body>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <input type="search" placeholder="search...." />
+      <a href="https://www.google.com/"
+        ><button type="submit">Submit</button></a
+      >
+    </ul>
+
     <img
       src="https://image.winudf.com/v2/image/Y29tLmJlcnJlYW13YWxsaW5jLnNwaWRlcm1hbndhbGxwYXBlcmhkX3NjcmVlbl8wXzE1MjQyMjg2NDdfMDA0/screen-0.jpg?fakeurl=1&type=.jpg"
-      alt="logo"
+      alt="logo" title="spiderman"
     />
+    <div class="id">
+      <img
+        src="https://lh3.googleusercontent.com/proxy/OYDM-AUm9Tw_LhBA5HYANEtLg8KPyirzA74NkYlJ2wNqDbnKWXGVPQ3xTWH8sWZMktE5Sf418Ey7jZNv8Peaq46aOQaX7NpB-vUMPPTsS-mt_J82KzdzY3Zxl17B09DwDjZU6oZzZUMpzQ"
+        alt="ironman"
+      />
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga a quia sunt
+      officiis rerum deleniti voluptates natus possimus reiciendis sapiente
+      neque quidem porro facilis commodi voluptas dolore, suscipit earum hic.
+    </div>
   </body>
 </html>
